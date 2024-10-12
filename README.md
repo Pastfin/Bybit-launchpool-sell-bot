@@ -1,6 +1,11 @@
 # Bybit Launchpool Sell Bot
 
 The script helps sell all the tokens that come in during Launchpool to the Funding account. Thus, you don't need to log in to a large number of accounts manually, but just run the script.
+## Code Logic:
+
+1. Transfers all specified tokens from Funding to Unified Trading.
+2. Retrieves information about the specified token and its balance on Unified Trading. If tokens were previously present on Unified Trading, it will also be sold.
+3. Sells the maximum amount of specified tokens at the market price on spot trading.
 
 ## Quick Start:
 
