@@ -22,10 +22,10 @@ The script helps sell all the tokens that come in during Launchpool to the Fundi
 
    - **api_key** (required)
    - **api_secret** (required)
-   - **Proxy** (required)
+   - **Proxy** (required) - Format: `http://{user_name}:{password}@{ip}:{port}`
    - **Acc** (optional for your usage)
 
-5. Open the file `main.py` and edit the `token_to_sell` variable which is located at the very bottom of the code (line 124). Write your token that you want to sell after Launchpool credited it to the Funding account.
+5. Open the file `main.py` and edit the `token_to_sell` variable which is located at the very bottom of the code (line 124). Write your token that you want to sell after Launchpool credited it to the Funding account. Example: `Example: token_to_sell = "CATS".upper()`.
 
 6. Run the script:
 
